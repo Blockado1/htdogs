@@ -1,0 +1,155 @@
+
+#conteneur{
+    background-color: white;
+    font-family: "cormorant garamond", serif;
+
+}
+
+body{
+    width: 1024px;
+    background-color: #069c9c;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: gray;
+    border: 1px solid black;
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 60px;
+    
+
+
+}
+.cerf{
+    width: 100px;
+}
+#logo:nth-child(2){
+    align-self: flex-end;
+}
+
+nav {
+
+}
+
+nav ul li{
+    display: inline;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#story{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 1024px;
+
+}
+#story .soir{
+    width: 49%;
+    text-align: center;
+    display: flex
+}
+
+.soir{
+    margin: 0;
+    height: auto;
+    display: flex;
+    vertical-align: middle;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+
+
+.asperge{
+    width: 50%;
+}
+
+.asperge img{
+    width: 100%;
+}
+
+.traitrouge{
+    width: 10%;
+    color: red;
+
+}
+
+.textred{
+    font-size: large;
+    font-family: 'Times New Roman';
+    color: red;
+    text-align: center;
+}
+   
+
+#freshfare{
+
+}
+#freshfare .soir{
+    width: 49%;
+    text-align: center;
+}
+
+#localdistillation{
+
+}
+#localdistillation .soir{
+    width: 49%;
+    text-align: center;
+}
+#eggs{
+
+}
+#eggs .soir{
+    width: 100%;
+    text-align: left;
+    margin: 0%;
+    text-align: center;
+}
+.lien{
+    text-align: right;
+    
+
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    float: inline-start left;
+}
+h3{
+    font-size: large;
+    text-align: center;
+}
+
+h4{
+    width: 80px;
+
+}
+footer {
+    width: 50%;
+    margin: 10% auto 5%;
+    text-align: center;
+}
+
+.graine1{
+    width: 150px;
+}
+
+.graine2{ 
+    width: 150px;
+}

@@ -1,0 +1,57 @@
+header {
+    width: 50%;
+    margin: 10% auto 5%;
+    text-align: center;
+}
+body {
+   font-family: "cormorant garamond", serif;
+   background-color: #f6f6f7;
+   width: 1024px;
+   margin: 0 auto;
+}
+section {
+    width: 100%;
+    display: inline-block;
+}
+nav {
+    text-align: center;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.plate {
+    margin: 0;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+#assiette .plate{
+    width: 49%;
+    text-align: right;
+}
+#Salle .plate{
+    width: 49%;
+    text-align: left;
+}
+#Service .plate{
+    width: 49%;
+    text-align: right;
+}
+#Dressage .plate{
+    width: 49%;
+    text-align: left;
+}
+#Goût .plate{
+    width: 49%;
+    text-align: right;
+}
+footer {
+    width: 50%;
+    margin: 10% auto 5%;
+    text-align: center;
+}
